@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "AutoCite",
+  "version": "1.0",
+  "description": "Automatically generate citations from the current page.",
+  "permissions": ["activeTab", "scripting", "clipboardWrite"],
+  "action": {
+    "default_title": "Generate Citation"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
