@@ -5,7 +5,13 @@
   "description": "Automatically generate citations from the current page.",
   "permissions": ["activeTab", "scripting", "clipboardWrite"],
   "action": {
-    "default_title": "Generate Citation"
+    "default_title": "Generate Citation",
+    "default_icon": "citesnap_icon.png"
+  },
+  "icons": {
+    "16": "citesnap_icon.png",
+    "48": "citesnap_icon.png",
+    "128": "citesnap_icon.png"
   },
   "background": {
     "service_worker": "background.js"
