@@ -25,7 +25,7 @@
         return date.getFullYear().toString();
       }
     }
-    return "(N/A)";
+    return "N/A";
   }
 
   function getFormattedDate() {
