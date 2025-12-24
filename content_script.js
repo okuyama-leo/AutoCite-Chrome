@@ -49,7 +49,7 @@
     // User request: "公開日が不明な場合は，（N/A）と代わりに入力する。" -> implied for YYYY slot.
     
     // Format: Author(Year). 「Title」 <URL> (AccessDate参照).
-    const citation = `${author}(${year}). 「${title}」 <${url}> (参照：${accessDate})`;
+    const citation = `${author}(${year}). 「${title}」 ${url} (参照：${accessDate})`;
 
     navigator.clipboard.writeText(citation).then(() => {
       alert(`Citation copied!\n\n${citation}`);
