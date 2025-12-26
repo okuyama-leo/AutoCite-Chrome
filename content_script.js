@@ -43,7 +43,7 @@
     const url = window.location.href;
     const accessDate = getFormattedDate();
 
-    // 著者名(YYYY).「記事名」<URL>(YYYY年MM月DD日参照).
+    // 著者名(YYYY).「記事名」URL(YYYY年MM月DD日参照).
     // 公開日が不明な場合は，（N/A）と代わりに入力する。
     // Note: If year is "(N/A)", we probably want "Unknown Author((N/A))" or similar?
     // User request: "公開日が不明な場合は，（N/A）と代わりに入力する。" -> implied for YYYY slot.
