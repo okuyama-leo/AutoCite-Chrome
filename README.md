@@ -31,9 +31,9 @@ Chrome拡張機能「AutoCite」のセットアップ手順です。
 ## 形式について
 
 以下の形式でクリップボードにコピーされます：
-`著者名(YYYY). 「記事名」 <URL> (YYYY年MM月DD日参照).`
+`著者名(YYYY). 「記事名」 URL (YYYY年MM月DD日参照).`
 
-例：`OKUYAMA Leo(2025). 「プロフィール・ブログサイトを作成しました | okuyamaleo.com」 <https://okuyamaleo.com/posts/create-blog/> (参照：2025年12月19日)`
+例：`OKUYAMA Leo(2025). 「プロフィール・ブログサイトを作成しました | okuyamaleo.com」 https://okuyamaleo.com/posts/create-blog/ (参照：2025年12月19日)`
 
 - 著者名が特定できない場合は「Unknown Author」となります。
 - 公開年が特定できない場合は「(N/A)」となります。
