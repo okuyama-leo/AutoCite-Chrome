@@ -5,13 +5,10 @@
   }
 
   function getAuthor() {
-    // Try standard author meta tags
     const metaAuthor = getMetaContent("name", "author") || 
                        getMetaContent("property", "article:author") || 
                        getMetaContent("property", "og:site_name");
-    
-    // If no meta tag, try to find common class names (simple heuristic)
-    // This is very site-specific, so keeping it simple is safer.
+
     return metaAuthor || "Unknown Author";
   }
 
